@@ -151,10 +151,13 @@ body {
 }
 
 hr {
-  border: 1px dotted #ff0000;
-  border-style: none none dotted;
-  color: #fff;
-  background-color: #fff;
+  position: center;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 100px;
+  margin: auto;
 }
 
 .champion {
