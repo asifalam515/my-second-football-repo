@@ -146,14 +146,14 @@ body {
 }
 .champion {
   background-color: whitesmoke;
-  border: 1px solid wheat;
+  border: 1px solid whitesmoke;
   float: left;
   width: 50%;
   color: black;
 }
 .runners-up {
   background-color: whitesmoke;
-  border: 1px solid wheat;
+  border: 1px solid whitesmoke;
   float: left;
   width: 50%;
   color: black;
