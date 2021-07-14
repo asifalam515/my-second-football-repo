@@ -138,24 +138,25 @@ body {
 }
 
 /* Bonus section */
-.bonus-section {
+.result {
   display: flex;
 }
 * {
   box-sizing: border-box;
 }
-
-other */ .column {
+.champion {
+  background-color: orange;
+  border: 1px solid cyan;
   float: left;
   width: 50%;
-  padding: 10px;
-  height: 300px;
+  color: whitesmoke;
 }
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.runners-up {
+  background-color: orange;
+  border: 1px solid cyan;
+  float: left;
+  width: 50%;
+  color: whitesmoke;
 }
 
 /* footer section */
