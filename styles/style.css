@@ -1,0 +1,198 @@
+/* ----------------Common styles-------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: poppins;
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+}
+/* ----------------/Common styles-------------- */
+
+/* ----------------Hero section-------------- */
+.hero {
+  background-color: #2d25a0;
+  height: 100vh;
+}
+.container-fluid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.hero-text {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #e02c6d;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.btn:hover i {
+  transform: scale(1.2);
+  transition: ease-in-out 1s;
+  color: yellow;
+}
+.hero-img img {
+  width: 100%;
+  margin-top: 50px;
+  min-width: 400px;
+  transition: ease-in-out 1s;
+}
+.hero-img img:hover {
+  transform: scale(1.05);
+}
+/* ----------------/Hero section-------------- */
+
+/* Players-info */
+.cards {
+  margin: 50px auto;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(3, 330px);
+  justify-content: center;
+}
+.card img {
+  width: 300px;
+  height: 250px;
+}
+@media only screen and (max-width: 400px) {
+  .hero-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .hero-img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+  }
+  .cards .card {
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.54);
+    overflow: hidden;
+    width: 70%;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 775px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero-img img {
+    height: 350px;
+    width: 300px;
+  }
+
+  .btn {
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #e02c6d;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 400px;
+    margin: 30px 0;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.54);
+  }
+}
+
+/* Bonus section */
+.bonus-section {
+  display: flex;
+}
+* {
+  box-sizing: border-box;
+}
+
+other */ .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer section */
+.copyright {
+  margin-left: 50px;
+}
+
+/* last section */
+.footer-container {
+  margin: 5rem auto;
+  display: grid;
+  place-content: center;
+  gap: 1.5rem;
+}
+.footer__logo {
+  height: 10rem;
+  margin-right: 10rem;
+}
+.footer__social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.footer__social-icon {
+  font-size: 2rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text);
+}
+.footer__copyright {
+  font-size: 1.8rem;
+  color: #000000;
+  text-align: center;
+}
