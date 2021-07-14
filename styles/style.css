@@ -105,8 +105,12 @@ body {
   body {
     overflow-x: hidden;
   }
-  .hero-img img {
+  .footer-container {
     height: 350px;
+    width: 300px;
+  }
+  .hero-img img {
+    height: 300px;
     width: 300px;
   }
 
@@ -138,9 +142,12 @@ body {
 }
 
 /* Bonus section */
-.result {
-  display: flex;
-  padding: 150px;
+
+@media (min-width: 768px) {
+  .result {
+    display: flex;
+    padding: 150px;
+  }
 }
 
 hr {
